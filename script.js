@@ -1,5 +1,5 @@
 const url="https://api.fastforex.io/fetch-one?from=USD&to=INR&api_key=0c47a248ad-646f08b395-sttkyk"
-api_key="0c47a248ad-646f08b395-sttkyk" // you need to chnage it in every 7 days 
+api_key="a0c4398f55-aa77362480-sugiv1" // you need to chnage it in every 7 days 
 const dropdowns=document.querySelectorAll(".dropdown select")
 
 for(let select of dropdowns)
