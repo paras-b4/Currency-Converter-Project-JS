@@ -29,6 +29,7 @@ for(let select of dropdowns)
 
 const updateflag=(element)=>
 {
+    console.log(element)
     let currcode=element.value
     let countrycode=countryList[currcode]
     console.log(countrycode)
@@ -51,7 +52,7 @@ const fromcurr=document.querySelector(".from select")
 const Tocurr=document.querySelector(".to select")
 const msg=document.querySelector(".msg")
 console.log(fromcurr.value,Tocurr.value)
-    const URL=`https://api.fastforex.io/fetch-one?from=${fromcurr.value}&to=${Tocurr.value}&api_key=0c47a248ad-646f08b395-sttkyk`
+    const URL=`https://api.fastforex.io/fetch-one?from=${fromcurr.value}&to=${Tocurr.value}&api_key=a0c4398f55-aa77362480-sugiv1`
     let response=await fetch(URL)
     let data=await response.json()
     // let finalAmount=input*data
